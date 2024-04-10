@@ -54,7 +54,10 @@
         justify-content: space-around;
         flex-wrap: wrap;
         &__contacts {
-            margin-top: 5px;
+            align-items: center
+        }
+        div {
+            width: 100%;
         }
     }
 
@@ -69,6 +72,7 @@
         font-size: 25px;
     }
     .promo__subheader {
+        text-align: center;
         font-size: 15px;
       }
     .promo__icons {
