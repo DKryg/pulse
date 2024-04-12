@@ -14,6 +14,22 @@
     .promo__subheader {
         font-size: 20px;
     }
+    .consultation {
+        padding: 50px 0 50px 0;
+        min-height: 550px;
+    }
+    .title_left {
+        font-size: 30px;
+        text-align: center;
+    }
+    .consultation__descr {
+        text-align: center;
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+    
 }
 
 @media (max-width: 767px) {
@@ -54,7 +70,10 @@
         justify-content: space-around;
         flex-wrap: wrap;
         &__contacts {
-            margin-top: 5px;
+            align-items: center
+        }
+        div {
+            width: 100%;
         }
     }
 
@@ -69,6 +88,7 @@
         font-size: 25px;
     }
     .promo__subheader {
+        text-align: center;
         font-size: 15px;
       }
     .promo__icons {
@@ -99,5 +119,14 @@
     }
     .advantages__descr {
         margin-top: 10px;
+    }
+    .title_left {
+        font-size: 20px;
+    }
+    .consultation {
+        padding: 50px 0 30px 0;
+    }
+    .consultation__descr {
+        font-size: 15px;
     }
 }
