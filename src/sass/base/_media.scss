@@ -29,6 +29,17 @@
         margin: 0 auto;
         margin-top: 35px;
     }
+    .catalog__content {
+        margin-top:30px;
+        justify-content: space-around;
+    }
+    .feed__descr {
+        width: 500px;
+    }
+    .feed__img {
+        width: 150px;
+        height: 150px;
+    }
     
 }
 
@@ -43,10 +54,10 @@
         font-size: 20px;
     }
     .header__logo {
-        width: 180px;
+        width: 250px;
     }
     .header__official {
-        font-size:10px;
+        font-size:14px;
         span {
             font-size: 14px;
         }
@@ -60,6 +71,34 @@
     .advantages__descr {
         font-size: 14px;
     }
+    .catalog {
+        padding-bottom: 20px;
+    }
+    .catalog__tabs{
+        margin-top: 30px ;
+        flex-direction: column;
+    }
+    .catalog__tab {
+        width: 250px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .feed__item {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .feed__img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .feed__subtitle {
+        text-align: center;
+    }
+    .feed__descr {
+        text-align: center;
+    }
+       
 }
 
 @media (max-width: 575px){
@@ -89,7 +128,7 @@
     }
     .promo__subheader {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
       }
     .promo__icons {
         margin-top: 15px;
@@ -128,5 +167,9 @@
     }
     .consultation__descr {
         font-size: 15px;
+    }
+    .feed__descr {
+        font-size: 14px;
+        width: 300px;
     }
 }
